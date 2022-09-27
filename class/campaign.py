@@ -12,3 +12,6 @@ class campaign:
         self.endDate = datetime.strptime(endDate, "%Y-%d-%m").date()
         self.fundingGoal = fundingGoal
         self.currentFunds = 500
+
+def get_all():
+  
